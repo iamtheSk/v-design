@@ -104,27 +104,27 @@ const App = () => {
         </div>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-4 py-4">
         <div className="px-2 py-4 ">
-          <div className="flex border  rounded-md border-slate-300 items-center justify-center  w-full">
+          <div className="flex border text-center  rounded-md border-slate-300 items-center justify-center  w-full">
             <div className="bg-red-500 p-4 rounded-l-md text-white border-r w-full">
               Tasks
             </div>
-            <div className="p-4 rounded-md border-r-2  w-full">In Process </div>
+            <div className="p-4 border-r-2  w-full">In Process </div>
             <div className="p-4 rounded-md  w-full">Closed (1)</div>
           </div>
         </div>
 
         <div className="w-full px-3 ">
-          <div className="px-4 py-4 border-2 space-y-6 rounded-md  ">
+          <div className="px-4 py-4 border-2 space-y-6 rounded-lg ">
             <div className="flex items-center justify-between">
               <div className="text-red-500">High</div>
               <div className="text-center">
-                <p>Clean Room</p>
+                <p className="font-semibold">Clean Room</p>
                 <span>Housekeeping</span>
               </div>
               <div>
-                <div className="bg-emerald-300 rounded-md p-1">Created</div>
+                <div className="bg-emerald-300 rounded-md p-[6px]">Created</div>
               </div>
             </div>
 
@@ -139,13 +139,13 @@ const App = () => {
               </div>
             </div>
 
-            <div className="flex items-center border-t w-full justify-between">
-              <div className="p-2 border-2 w-full text-center">
-                <p>Created</p>
+            <div className="flex items-center w-full  justify-between">
+              <div className="p-2 border-2  rounded-l-md w-full text-center">
+                <p className="font-semibold">Created</p>
                 <span>12:30 PM</span>
               </div>
-              <div className="p-2 border-2 w-full text-center ">
-                <p>Due </p>
+              <div className="p-2 border-2 rounded-r-md w-full text-center ">
+                <p className="font-semibold">Due</p>
                 <span>11:00 AM</span>
               </div>
             </div>
@@ -157,11 +157,11 @@ const App = () => {
             <div className="flex items-center justify-between">
               <div className="text-red-500">High</div>
               <div className="text-center">
-                <p>Clean Room</p>
+                <p className="font-semibold">Clean Room</p>
                 <span>Housekeeping</span>
               </div>
               <div>
-                <div className="bg-emerald-300 rounded-md p-1">Created</div>
+                <div className="bg-emerald-300 rounded-md p-[6px]">Created</div>
               </div>
             </div>
 
@@ -176,13 +176,13 @@ const App = () => {
               </div>
             </div>
 
-            <div className="flex items-center border-t w-full justify-between">
-              <div className="p-2 border-2 w-full text-center">
-                <p>Created</p>
+            <div className="flex items-center w-full  justify-between">
+              <div className="p-2 border-2  rounded-l-md w-full text-center">
+                <p className="font-semibold">Created</p>
                 <span>12:30 PM</span>
               </div>
-              <div className="p-2 border-2 w-full text-center ">
-                <p>Due </p>
+              <div className="p-2 border-2 rounded-r-md w-full text-center ">
+                <p className="font-semibold">Due</p>
                 <span>11:00 AM</span>
               </div>
             </div>
@@ -194,11 +194,11 @@ const App = () => {
             <div className="flex items-center justify-between">
               <div className="text-red-500">High</div>
               <div className="text-center">
-                <p>Clean Room</p>
+                <p className="font-semibold">Clean Room</p>
                 <span>Housekeeping</span>
               </div>
               <div>
-                <div className="bg-emerald-300 rounded-md p-1">Created</div>
+                <div className="bg-emerald-300 rounded-md p-[6px]">Created</div>
               </div>
             </div>
 
@@ -213,13 +213,13 @@ const App = () => {
               </div>
             </div>
 
-            <div className="flex items-center border-t w-full justify-between">
-              <div className="p-2 border-2 w-full text-center">
-                <p>Created</p>
+            <div className="flex items-center w-full  justify-between">
+              <div className="p-2 border-2  rounded-l-md w-full text-center">
+                <p className="font-semibold">Created</p>
                 <span>12:30 PM</span>
               </div>
-              <div className="p-2 border-2 w-full text-center ">
-                <p>Due </p>
+              <div className="p-2 border-2 rounded-r-md w-full text-center ">
+                <p className="font-semibold">Due</p>
                 <span>11:00 AM</span>
               </div>
             </div>
@@ -231,11 +231,11 @@ const App = () => {
             <div className="flex items-center justify-between">
               <div className="text-red-500">High</div>
               <div className="text-center">
-                <p>Clean Room</p>
+                <p className="font-semibold">Clean Room</p>
                 <span>Housekeeping</span>
               </div>
               <div>
-                <div className="bg-emerald-300 rounded-md p-1">Created</div>
+                <div className="bg-emerald-300 rounded-md p-[6px]">Created</div>
               </div>
             </div>
 
@@ -250,13 +250,13 @@ const App = () => {
               </div>
             </div>
 
-            <div className="flex items-center border-t w-full justify-between">
-              <div className="p-2 border-2 w-full text-center">
-                <p>Created</p>
+            <div className="flex items-center w-full  justify-between">
+              <div className="p-2 border-2  rounded-l-md w-full text-center">
+                <p className="font-semibold">Created</p>
                 <span>12:30 PM</span>
               </div>
-              <div className="p-2 border-2 w-full text-center ">
-                <p>Due </p>
+              <div className="p-2 border-2 rounded-r-md w-full text-center ">
+                <p className="font-semibold">Due</p>
                 <span>11:00 AM</span>
               </div>
             </div>
@@ -268,11 +268,11 @@ const App = () => {
             <div className="flex items-center justify-between">
               <div className="text-red-500">High</div>
               <div className="text-center">
-                <p>Clean Room</p>
+                <p className="font-semibold">Clean Room</p>
                 <span>Housekeeping</span>
               </div>
               <div>
-                <div className="bg-emerald-300 rounded-md p-1">Created</div>
+                <div className="bg-emerald-300 rounded-md p-[6px]">Created</div>
               </div>
             </div>
 
@@ -287,13 +287,13 @@ const App = () => {
               </div>
             </div>
 
-            <div className="flex items-center border-t w-full justify-between">
-              <div className="p-2 border-2 w-full text-center">
-                <p>Created</p>
+            <div className="flex items-center w-full  justify-between">
+              <div className="p-2 border-2  rounded-l-md w-full text-center">
+                <p className="font-semibold">Created</p>
                 <span>12:30 PM</span>
               </div>
-              <div className="p-2 border-2 w-full text-center ">
-                <p>Due </p>
+              <div className="p-2 border-2 rounded-r-md w-full text-center ">
+                <p className="font-semibold">Due</p>
                 <span>11:00 AM</span>
               </div>
             </div>
@@ -305,11 +305,11 @@ const App = () => {
             <div className="flex items-center justify-between">
               <div className="text-red-500">High</div>
               <div className="text-center">
-                <p>Clean Room</p>
+                <p className="font-semibold">Clean Room</p>
                 <span>Housekeeping</span>
               </div>
               <div>
-                <div className="bg-emerald-300 rounded-md p-1">Created</div>
+                <div className="bg-emerald-300 rounded-md p-[6px]">Created</div>
               </div>
             </div>
 
@@ -324,13 +324,13 @@ const App = () => {
               </div>
             </div>
 
-            <div className="flex items-center border-t w-full justify-between">
-              <div className="p-2 border-2 w-full text-center">
-                <p>Created</p>
+            <div className="flex items-center w-full  justify-between">
+              <div className="p-2 border-2  rounded-l-md w-full text-center">
+                <p className="font-semibold">Created</p>
                 <span>12:30 PM</span>
               </div>
-              <div className="p-2 border-2 w-full text-center ">
-                <p>Due </p>
+              <div className="p-2 border-2 rounded-r-md w-full text-center ">
+                <p className="font-semibold">Due</p>
                 <span>11:00 AM</span>
               </div>
             </div>
